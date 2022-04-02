@@ -1,6 +1,13 @@
 # LinkBERT
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg?style=flat-square)](http://makeapullrequest.com)
+[![arXiv](https://img.shields.io/badge/arXiv-2203.15827-b31b1b.svg)](https://arxiv.org/abs/2203.15827)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/linkbert-pretraining-language-models-with/question-answering-on-mrqa-2019)](https://paperswithcode.com/sota/question-answering-on-mrqa-2019?p=linkbert-pretraining-language-models-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/linkbert-pretraining-language-models-with/text-classification-on-blurb)](https://paperswithcode.com/sota/text-classification-on-blurb?p=linkbert-pretraining-language-models-with)
+
 
 This repo provides the model, code & data of our paper: [LinkBERT: Pretraining Language Models with Document Links](https://arxiv.org/abs/2203.15827) (ACL 2022).
+[[PDF]](https://arxiv.org/pdf/2203.15827.pdf)
+[[HuggingFace Models]](https://huggingface.co/michiyasunaga)
 ```bib
 @InProceedings{yasunaga2022linkbert,
   author =  {Michihiro Yasunaga and Jure Leskovec and Percy Liang},
@@ -25,7 +32,7 @@ We release the pretrained LinkBERT (-base and -large sizes) for both the general
 <!-- The -base & -large sizes follow the same model configuration as [BERT](https://github.com/google-research/bert). -->
 
 
-| Model | Size | Domain | Pretraining Corpus | 🤗 Transformers Link |
+| Model | Size | Domain | Pretraining Corpus | Download Link (🤗 HuggingFace) |
 | ------------- | ------------- | --------- | ---- | ---- |
 | LinkBERT-base   | 110M parameters | General | Wikipedia with hyperlinks | [michiyasunaga/LinkBERT-base](https://huggingface.co/michiyasunaga/LinkBERT-base) |
 | LinkBERT-large  | 340M parameters | General | Wikipedia with hyperlinks | [michiyasunaga/LinkBERT-large](https://huggingface.co/michiyasunaga/LinkBERT-large) |
